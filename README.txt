@@ -1,5 +1,3 @@
-Alex Elwood | June 2020
-
 Zoom In 			       -  W
 Zoom Out 			       -  S
 Move Up				       -  Up Arrow
