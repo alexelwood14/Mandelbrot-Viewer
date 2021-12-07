@@ -13,28 +13,35 @@ Terminate Program                      -  Esc
 ## Movement: ##
 
 accelerateForwards will increase the velocity of the baloon until it is at terminal velocity. 
-accelerateForwards()
+
+`accelerateForwards()`
 
 accelerateBackwards will decrease the velocity of the baloon until it is reversing at terminal velocity.
-accelerateBackwards()
+
+`accelerateBackwards()`
 
 accelerateUp will increase the velocity of the baloon vertically until it is increaseing in altitude at terminal velocity.
-accelerateUp()
+
+`accelerateUp()`
 
 accelerateDown will decrease the velocity of the baloon vertically until it is decreaseing in altitude at terminal velocity.
-accelerateDown()
+
+`accelerateDown()`
 
 accelerateClockwise will increase the rotational velocity of the baloon in the clockwise direction until it is at terminal rotational velocity. 
-accelerateClockwise()
+
+`accelerateClockwise()`
 
 accelerateAnticlockwise will increase the rotational velocity of the baloon in the anticlockwise direction until it is at terminal rotational velocity. 
-accelerateAnticlockwise()
+
+`accelerateAnticlockwise()`
  
 
-Sensors:
+## Sensors: ##
 one for each direction (up, down, left, right, forwards, backwards)
  
-Getters:
+## Getters: ##
+
 velocity
 acceleration
 rotational acceleration
