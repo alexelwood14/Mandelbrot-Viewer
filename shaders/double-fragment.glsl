@@ -1,6 +1,5 @@
 #version 400
 
-#extension GL_NV_gpu_shader_fp64 : enable
 uniform vec2 resolution;
 uniform float time;
 uniform float scale_factor;
@@ -10,12 +9,12 @@ out vec4 outColor;
 
 void main()
 {
-    f64vec2 c = f64vec2(double(gl_FragCoord.x / resolution.x), double(gl_FragCoord.y / resolution.y));
+    dvec2 c = dvec2(double(gl_FragCoord.x / resolution.x), double(gl_FragCoord.y / resolution.y));
     c = (c - 0.5) / scale_factor;
     c.x *= resolution.x / resolution.y;
     c += translation;
     
-    f64vec2 z = f64vec2(double(0.0), double(0.0));
+    dvec2 z = dvec2(double(0.0), double(0.0));
     double temp;
 
     int n;

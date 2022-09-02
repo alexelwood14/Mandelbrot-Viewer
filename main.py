@@ -90,7 +90,7 @@ def main():
     # contain 72,000,000,000,000,000,000,000,000,000,000,000 (seventy-two decillion) pixels, roughly 8192k.
     double = False
 
-    resolution = [2650, 1440]
+    resolution = [1920, 1080]
     fullscreen = True
 
     vertices = [-1.0, -1.0,
